@@ -114,3 +114,174 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
+
+/****************************** button toolbar*/
+
+.btn-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.btn-hyphy {
+  background-color: #4CAF50; /* Green */
+  border-color: purple;
+  border-style: dotted;
+  border-width: thick;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 24px; /* Safari */
+  transition-duration: 0.4s;
+}
+.btn-primary {
+  background-color: lightblue;
+  border-color: purple;
+  border-style: dotted;
+  border-width: thick;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 24px;
+  transition-duration: 0.4s;
+}
+.btn-secondary {
+  background-color: black;
+  border-color: purple;
+  border-style: dotted;
+  border-width: thick;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 24px; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.btn-success {
+  background-color: #4CAF50; /* Green */
+  border-color: purple;
+  border-style: dotted;
+  border-width: thick;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 24px; /* Safari */
+  transition-duration: 0.4s;
+}
+.btn-info {
+  background-color: blue;
+  border-color: purple;
+  border-style: dotted;
+  border-width: thick;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 24px; /* Safari */
+  transition-duration: 0.4s;
+}
+.btn-warning {
+  background-color: peru;
+  border-color: purple;
+  border-style: dotted;
+  border-width: thick;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 24px; /* Safari */
+  transition-duration: 0.4s;
+}
+.btn-danger {
+  background-color: red;
+  border-color: purple;
+  border-style: dotted;
+  border-width: thick;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 24px; /* Safari */
+  transition-duration: 0.4s;
+}
+.btn-link {
+  background-color: black;
+  border-color: purple;
+  border-style: dotted;
+  border-width: thick;
+  color: lightblue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 24px; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.btn-hyphy:hover {
+  background-color: yellow;
+  color: green;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
