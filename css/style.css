@@ -8,6 +8,8 @@
 
 /**************** Grid *******************/
 .main {
+  min-width: 350px;
+  max-width: 750px;
   display: flex;
 }
 
@@ -16,16 +18,21 @@
 }
 
 .flex-grid-thirds {
+  min-width: 350px;
+  max-width: 750px;
   display: flex;
   justify-content: space-between;
 }
 .flex-grid-thirds .col3 {
-  width: 32%;
+  width: 30%;
 }
 
-
-
 /**************** Grid *******************/
+
+
+
+
+/*************************** font choices*/
 
 
 .high {
@@ -34,14 +41,15 @@
   color: green;
 }
 
-
-/*************************** font choices*/
-
-html {
+/*html {
   font-family: helvetica, arial, sans-serif;
+}*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: monospace;
 }
 
-h1, h2, h3, h4, h5. h6 {
+.h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: monospace;
 }
 
@@ -117,6 +125,9 @@ p {
   background-color: grey;
 }
 
+body {
+  font-family: helvetica, arial, sans-serif;
+}
 
 
 /**************************** addresses*/
@@ -133,14 +144,14 @@ p {
 
 
 /****************************** blockqoute*/
-blockquote {
+.blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
+  margin: 10px 10px;
+  padding: 10px 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
-blockquote:before {
+.blockquote:before {
   color: #ccc;
   content: open-quote;
   font-size: 4em;
@@ -148,7 +159,7 @@ blockquote:before {
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
-blockquote p {
+.blockquote p {
   display: inline;
 }
 
