@@ -9,10 +9,11 @@
 /**************** Grid *******************/
 body {
   max-width: 800px;
+  height: 100%;
   justify-content: center;
   margin-left: 10%;
   padding: 20px;
-  border: 5px black dotted;
+  /*border: 5px black dotted;*/
 }
 
 .main {
@@ -370,7 +371,40 @@ body {
 
 
    /************************************Breadcrumbs*/
+   /* Style the list */
+   ul.breadcrumb {
+       padding: 10px 16px;
+       list-style: none;
+       background-color: gold;
+       font-size: 17px;
+       border-radius: 30px;
+       color: gray;
+       font-style: bold;
+   }
 
+   /* Display list items side by side */
+   ul.breadcrumb li {
+       display: inline;
+   }
+
+   /* Add a slash symbol (/) before/behind each list item */
+   ul.breadcrumb li+li:before {
+       padding: 8px;
+       color: black;
+       content: "/\00a0";
+   }
+
+   /* Add a color to all links inside the list */
+   ul.breadcrumb li a {
+       color: #0275d8;
+       text-decoration: none;
+   }
+
+   /* Add a color on mouse-over */
+   ul.breadcrumb li a:hover {
+       color: #01447e;
+       text-decoration: underline;
+   }
 
 
 
@@ -380,11 +414,22 @@ body {
 
 
    /************************************Pagination*/
+   .pagination a {
+       color: black;
+       float: left;
+       padding: 8px 16px;
+       text-decoration: none;
+       transition: background-color .3s;
+   }
 
+   .pagination a.active {
+       background-color: #4CAF50;
+       color: white;
+   }
 
-
-
-
+   .pagination a:hover:not(.active) {
+     background-color: #ddd;
+   }
 
 
 
@@ -412,7 +457,12 @@ body {
 
 
    /************************************Badges*/
-
+.badge {
+  background-color: brown;
+  color: white;
+  border-radius: 3px;
+  padding: 1px 1px 0.1px 1px;
+}
 
 
 
@@ -425,22 +475,38 @@ body {
 
    /************************************Jumbotron*/
 
+.jumbotron {
+  background-image: url("http://static.djbooth.net/pics-features/e-40-hyphy-culture-10-years.jpg");
+  background-size: cover;
+  height: auto;
+  width: 100%;
+}
 
+.jumbotron-header {
+  font-family: monospace;
+  font-size: 48px;
+  color: green;
+}
 
-
-
-
-
-
-
-
-
+.jumbotron-body {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 33px;
+  font-style: bold;
+  color: #6F2DA8;
+}
 
 
    /************************************Page Header*/
 
 
-
+   .page-header {
+     font-size: 48px;
+     padding: 10px 10px 10px 10px;
+     font-family: monospace;
+     border-bottom: 5px;
+     border-bottom-style: dotted;
+     border-bottom-color: #6F2DA8;
+   }
 
 
 
