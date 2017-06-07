@@ -7,6 +7,14 @@
 
 
 /**************** Grid *******************/
+body {
+  max-width: 800px;
+  justify-content: center;
+  margin-left: 10%;
+  padding: 20px;
+  border: 5px black dotted;
+}
+
 .main {
   min-width: 350px;
   max-width: 750px;
@@ -34,10 +42,15 @@
 
 /*************************** font choices*/
 
-
 .high {
   font-family: monospace;
   font-size: 24px;
+  color: green;
+}
+
+.highBIG {
+  font-family: monospace;
+  font-size: 42px;
   color: green;
 }
 
@@ -185,6 +198,7 @@ body {
   padding: 10px 24px; /* Safari */
   transition-duration: 0.4s;
   margin: 5px;
+
 }
 .btn-primary {
   background-color: lightblue;
@@ -345,3 +359,190 @@ body {
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+
+
+/******************************  Button Groups: Toolbar*/
+
+
+
+
+
+
+
+   /************************************Breadcrumbs*/
+
+
+
+
+
+
+
+
+
+   /************************************Pagination*/
+
+
+
+
+
+
+
+
+
+
+
+   /************************************Labels*/
+
+.label1 {
+  color: white;
+  /*width: 500px;
+  height: 205px;*/
+  background-color: black;
+  border: 1px;
+  border-radius: 4px
+}
+
+
+
+
+
+
+
+
+
+
+   /************************************Badges*/
+
+
+
+
+
+
+
+
+
+
+
+   /************************************Jumbotron*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /************************************Page Header*/
+
+
+
+
+
+
+
+
+
+
+
+
+   /************************************Thumbnails*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /************************************Alerts*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /************************************List Group*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /************************************Panels*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /************************************Wells*/
