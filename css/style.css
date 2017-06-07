@@ -68,9 +68,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /********************************* headings */
+.size1 {
+  font-size: 48px;
+}
+
+
 h1 {
   font-size: 24px;
 }
+
+#h2 {
+  font-size: 72px;
+}
+
+
+
+
 
 h2 {
   font-size: 18px;
@@ -382,6 +395,7 @@ body {
        font-style: bold;
    }
 
+
    /* Display list items side by side */
    ul.breadcrumb li {
        display: inline;
@@ -394,6 +408,8 @@ body {
        content: "/\00a0";
    }
 
+
+
    /* Add a color to all links inside the list */
    ul.breadcrumb li a {
        color: #0275d8;
@@ -405,12 +421,6 @@ body {
        color: #01447e;
        text-decoration: underline;
    }
-
-
-
-
-
-
 
 
    /************************************Pagination*/
@@ -432,10 +442,6 @@ body {
    }
 
 
-
-
-
-
    /************************************Labels*/
 
 .label1 {
@@ -445,14 +451,19 @@ body {
   background-color: black;
   border: 1px;
   border-radius: 4px
+  padding: 3px;
 }
 
 
-
-
-
-
-
+.label1-warn {
+  color: white;
+  /*width: 500px;
+  height: 205px;*/
+  background-color: red;
+  border: 1px;
+  border-radius: 4px
+  padding: 3px;
+}
 
 
 
@@ -463,14 +474,6 @@ body {
   border-radius: 3px;
   padding: 1px 1px 0.1px 1px;
 }
-
-
-
-
-
-
-
-
 
 
    /************************************Jumbotron*/
