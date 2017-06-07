@@ -1,5 +1,5 @@
 # buildaBootstrap
-brigidope and solomanolo make a css library. 
+brigidope and solomanolo make a css library.
 # Build Your Own Bootstrap
 
 ## Challenge Rating
@@ -40,37 +40,37 @@ Read and reference good resources on the web to build your conceptual understand
 
 ## Specifications
 
-- [ ] Artifact is a GitHub repository (if you're looking for a name, why not "shoelace" ;)
-- [ ] All CSS files are in a `css/` directory.
-- [ ] Main page is called `demo.html` and includes an example of each component.
-- [ ] No external CSS libraries/modules are used. Everything is written from scratch.
-- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
-- [ ] HTML, CSS, and JS files are well formatted with proper spacing and indentation.
-- [ ] All major features are added via pull requests with a clear description and concise commit messages.
-- [ ] Every pull request has been reviewed by at least one other person.
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
+- [X] Artifact is a GitHub repository (if you're looking for a name, why not "shoelace" ;)
+- [X] All CSS files are in a `css/` directory.
+- [X] Main page is called `demo.html` and includes an example of each component.
+- [X] No external CSS libraries/modules are used. Everything is written from scratch.
+- [X] Variables, functions, files, etc. have appropriate and meaningful names.
+- [X] HTML, CSS, and JS files are well formatted with proper spacing and indentation.
+- [X] All major features are added via pull requests with a clear description and concise commit messages.
+- [X] Every pull request has been reviewed by at least one other person.
+- [X] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
 
 ### Stage 1: Reverse Engineer Bootstrap Components
 
 #### Typography
-- [ ] Styles replicate Bootstrap's [Headings](http://getbootstrap.com/css/#type-headings)
-- [ ] Styles replicate Bootstrap's [Body copy](http://getbootstrap.com/css/#type-body-copy)
-- [ ] Styles replicate Bootstrap's [Addresses](http://getbootstrap.com/css/#type-addresses)
-- [ ] Styles replicate Bootstrap's [Blockquotes](http://getbootstrap.com/css/#type-blockquotes)
+- [X] Styles replicate Bootstrap's [Headings](http://getbootstrap.com/css/#type-headings)
+- [X] Styles replicate Bootstrap's [Body copy](http://getbootstrap.com/css/#type-body-copy)
+- [X] Styles replicate Bootstrap's [Addresses](http://getbootstrap.com/css/#type-addresses)
+- [X] Styles replicate Bootstrap's [Blockquotes](http://getbootstrap.com/css/#type-blockquotes)
 
 #### Components
 - [ ] Each component is featured on the demo HTML page `demo.html` under its own header along with the code used to generate it (for a simple example of what this could look like, see https://purecss.io/buttons/)
-- [ ] Styles replicate Bootstrap's [buttons](http://getbootstrap.com/css/#buttons)
+- [X] Styles replicate Bootstrap's [buttons](http://getbootstrap.com/css/#buttons)
 
 Components include replicas of Bootstrap's:
-- [ ] [Button Groups: Toolbar](http://getbootstrap.com/components/#btn-groups-toolbar)
-- [ ] [Breadcrumbs](http://getbootstrap.com/components/#breadcrumbs)
-- [ ] [Pagination](http://getbootstrap.com/components/#pagination)
-- [ ] [Labels](http://getbootstrap.com/components/#labels)
-- [ ] [Badges](http://getbootstrap.com/components/#badges)
-- [ ] [Jumbotron](http://getbootstrap.com/components/#jumbotron)
-- [ ] [Page Header](http://getbootstrap.com/components/#page-header)
-- [ ] [Thumbnails](http://getbootstrap.com/components/#thumbnails)
+- [X] [Button Groups: Toolbar](http://getbootstrap.com/components/#btn-groups-toolbar)
+- [X] [Breadcrumbs](http://getbootstrap.com/components/#breadcrumbs)
+- [X] [Pagination](http://getbootstrap.com/components/#pagination)
+- [X] [Labels](http://getbootstrap.com/components/#labels)
+- [X] [Badges](http://getbootstrap.com/components/#badges)
+- [X] [Jumbotron](http://getbootstrap.com/components/#jumbotron)
+- [X] [Page Header](http://getbootstrap.com/components/#page-header)
+- [X] [Thumbnails](http://getbootstrap.com/components/#thumbnails)
 - [ ] [Alerts](http://getbootstrap.com/components/#alerts)
 - [ ] [List Group](http://getbootstrap.com/components/#list-group)
 - [ ] [Panels](http://getbootstrap.com/components/#panels)
