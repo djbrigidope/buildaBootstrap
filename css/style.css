@@ -7,7 +7,17 @@
 
 
 /**************** Grid *******************/
+body {
+  max-width: 800px;
+  justify-content: center;
+  margin-left: 10%;
+  padding: 20px;
+  border: 5px black dotted;
+}
+
 .main {
+  min-width: 350px;
+  max-width: 750px;
   display: flex;
 }
 
@@ -16,17 +26,21 @@
 }
 
 .flex-grid-thirds {
+  min-width: 350px;
+  max-width: 750px;
   display: flex;
   justify-content: space-between;
 }
 .flex-grid-thirds .col3 {
-  width: 32%;
+  width: 30%;
 }
-
-
 
 /**************** Grid *******************/
 
+
+
+
+/*************************** font choices*/
 
 .high {
   font-family: monospace;
@@ -34,14 +48,21 @@
   color: green;
 }
 
-
-/*************************** font choices*/
-
-html {
-  font-family: helvetica, arial, sans-serif;
+.highBIG {
+  font-family: monospace;
+  font-size: 42px;
+  color: green;
 }
 
-h1, h2, h3, h4, h5. h6 {
+/*html {
+  font-family: helvetica, arial, sans-serif;
+}*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: monospace;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: monospace;
 }
 
@@ -117,6 +138,9 @@ p {
   background-color: grey;
 }
 
+body {
+  font-family: helvetica, arial, sans-serif;
+}
 
 
 /**************************** addresses*/
@@ -133,14 +157,14 @@ p {
 
 
 /****************************** blockqoute*/
-blockquote {
+.blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
+  margin: 10px 10px;
+  padding: 10px 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
-blockquote:before {
+.blockquote:before {
   color: #ccc;
   content: open-quote;
   font-size: 4em;
@@ -148,7 +172,7 @@ blockquote:before {
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
-blockquote p {
+.blockquote p {
   display: inline;
 }
 
@@ -174,6 +198,7 @@ blockquote p {
   padding: 10px 24px; /* Safari */
   transition-duration: 0.4s;
   margin: 5px;
+
 }
 .btn-primary {
   background-color: lightblue;
@@ -334,3 +359,190 @@ blockquote p {
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+
+
+/******************************  Button Groups: Toolbar*/
+
+
+
+
+
+
+
+   /************************************Breadcrumbs*/
+
+
+
+
+
+
+
+
+
+   /************************************Pagination*/
+
+
+
+
+
+
+
+
+
+
+
+   /************************************Labels*/
+
+.label1 {
+  color: white;
+  /*width: 500px;
+  height: 205px;*/
+  background-color: black;
+  border: 1px;
+  border-radius: 4px
+}
+
+
+
+
+
+
+
+
+
+
+   /************************************Badges*/
+
+
+
+
+
+
+
+
+
+
+
+   /************************************Jumbotron*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /************************************Page Header*/
+
+
+
+
+
+
+
+
+
+
+
+
+   /************************************Thumbnails*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /************************************Alerts*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /************************************List Group*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /************************************Panels*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /************************************Wells*/
