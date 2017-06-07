@@ -67,9 +67,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /********************************* headings */
+.size1 {
+  font-size: 48px;
+}
+
+
 h1 {
   font-size: 24px;
 }
+
+#h2 {
+  font-size: 72px;
+}
+
+
+
+
 
 h2 {
   font-size: 18px;
@@ -371,7 +384,7 @@ body {
 
    /************************************Breadcrumbs*/
 
-
+ul small navbar and link to a tag
 
 
 
@@ -400,6 +413,18 @@ body {
   background-color: black;
   border: 1px;
   border-radius: 4px
+  padding: 3px;
+}
+
+
+.label1-warn {
+  color: white;
+  /*width: 500px;
+  height: 205px;*/
+  background-color: red;
+  border: 1px;
+  border-radius: 4px
+  padding: 3px;
 }
 
 
