@@ -1,8 +1,8 @@
-@media (max-width: 400px) {
+/*@media (max-width: 400px) {
   .flex-grid {
     display: block;
   }
-}
+}*/
 
 
 
@@ -43,15 +43,38 @@ body {
 
 /*************************** font choices*/
 
+
+
+
+/************************************* Goolgle FOnts*/
+
+/*
+html link :
+
+<link href="https://fonts.googleapis.com/css?family=Bangers|Bree+Serif|Coiny|Marck+Script|Modak|Permanent+Marker" rel="stylesheet">
+
+css style:
+
+font-family: 'Bree Serif', serif;
+font-family: 'Coiny', cursive;
+font-family: 'Modak', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Bangers', cursive;
+
+*/
+/************************************* Goolgle FOnts*/
+
+
 .high {
-  font-family: monospace;
-  font-size: 24px;
+  font-family: 'Bangers', cursive;
+  font-size: 32px;
   color: green;
 }
 
 .highBIG {
-  font-family: monospace;
-  font-size: 42px;
+  font-family: 'Bangers', cursive;
+  font-size: 52px;
   color: green;
 }
 
@@ -60,7 +83,7 @@ body {
 }*/
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: monospace;
+  font-family: 'Bangers', cursive;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -80,9 +103,6 @@ h1 {
 #h2 {
   font-size: 72px;
 }
-
-
-
 
 
 h2 {
@@ -138,7 +158,7 @@ h6 {
 
 /****************** body*/
 p {
-  font-family: monospace;
+  font-family: helvetica, arial, sans-serif;
   font-size: 8px;
   font-style: bold;
 }
@@ -159,7 +179,14 @@ body {
 
 /**************************** addresses*/
 
+address {
+padding: 25px;
+color: white;
+background: green;
+font-family: helvetica, arial, sans-serif;
+font-size: 18px;
 
+}
 
 
 
@@ -177,6 +204,7 @@ body {
   margin: 10px 10px;
   padding: 10px 10px;
   quotes: "\201C""\201D""\2018""\2019";
+  font-family: 'Bangers', cursive;
 }
 .blockquote:before {
   color: #ccc;
@@ -185,9 +213,11 @@ body {
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
+  font-family: 'Bangers', cursive;
 }
 .blockquote p {
   display: inline;
+  font-family: 'Bangers', cursive;
 }
 
 /****************************** button toolbar*/
@@ -483,10 +513,11 @@ body {
   background-size: cover;
   height: auto;
   width: 100%;
+  /*opacity: 0.5;*/
 }
 
 .jumbotron-header {
-  font-family: monospace;
+  font-family: 'Bangers', cursive;
   font-size: 48px;
   color: green;
 }
@@ -505,62 +536,56 @@ body {
    .page-header {
      font-size: 48px;
      padding: 10px 10px 10px 10px;
-     font-family: monospace;
+     font-family: 'Bangers', cursive;
+     color: green;
      border-bottom: 5px;
      border-bottom-style: dotted;
      border-bottom-color: #6F2DA8;
    }
 
 
-
-
-
-
-
-
-
    /************************************Thumbnails*/
 
+   img {
+       border: 1px solid #ddd; /* Gray border */
+       border-radius: 4px;  /* Rounded border */
+       padding: 5px; /* Some padding */
+       width: 150px; /* Set a small width */
+   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   img:hover {
+       box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+   }
 
 
    /************************************Alerts*/
+   /* The alert message box */
+   .alert {
+       padding: 20px;
+       background-color: #f44336; /* Red */
+       color: white;
+       margin-bottom: 15px;
+       opacity: 1;
+       transition: opacity 0.6s; /* 600ms to fade out */
+   }
 
+   /* The close button */
+   .closebtn {
+       margin-left: 15px;
+       color: white;
+       font-weight: bold;
+       float: right;
+       font-size: 22px;
+       line-height: 20px;
+       cursor: pointer;
+       transition: 0.3s;
+   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   /* When moving the mouse over the close button */
+   .closebtn:hover {
+       color: black;
+   }
+   Try it Yourself »
 
    /************************************List Group*/
 

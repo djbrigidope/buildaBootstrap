@@ -70,7 +70,7 @@ Components include replicas of Bootstrap's:
 - [X] [Badges](http://getbootstrap.com/components/#badges)
 - [X] [Jumbotron](http://getbootstrap.com/components/#jumbotron)
 - [X] [Page Header](http://getbootstrap.com/components/#page-header)
-- [X] [Thumbnails](http://getbootstrap.com/components/#thumbnails)
+- [ ] [Thumbnails](http://getbootstrap.com/components/#thumbnails)
 - [ ] [Alerts](http://getbootstrap.com/components/#alerts)
 - [ ] [List Group](http://getbootstrap.com/components/#list-group)
 - [ ] [Panels](http://getbootstrap.com/components/#panels)
