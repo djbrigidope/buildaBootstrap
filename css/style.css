@@ -24,6 +24,7 @@ body {
 
 .column {
   flex: 1;
+  padding: 10px;
 }
 
 .flex-grid-thirds {
@@ -34,6 +35,7 @@ body {
 }
 .flex-grid-thirds .col3 {
   width: 30%;
+  padding: 15px;
 }
 
 /**************** Grid *******************/
@@ -174,13 +176,15 @@ p {
 
 body {
   font-family: helvetica, arial, sans-serif;
+
 }
 
 
 /**************************** addresses*/
 
 address {
-padding: 25px;
+  margin: 20px;
+padding: 20px;
 color: white;
 background: green;
 font-family: helvetica, arial, sans-serif;
@@ -423,6 +427,7 @@ font-size: 18px;
        border-radius: 30px;
        color: gray;
        font-style: bold;
+       font-family: 'Bangers', cursive;
    }
 
 
@@ -481,7 +486,8 @@ font-size: 18px;
   background-color: black;
   border: 1px;
   border-radius: 4px
-  padding: 3px;
+  padding: 10px;
+  font-family: 'Bangers', cursive;
 }
 
 
@@ -492,7 +498,8 @@ font-size: 18px;
   background-color: red;
   border: 1px;
   border-radius: 4px
-  padding: 3px;
+  padding: 5px;
+  font-family: 'Bangers', cursive;
 }
 
 
@@ -502,7 +509,9 @@ font-size: 18px;
   background-color: brown;
   color: white;
   border-radius: 3px;
-  padding: 1px 1px 0.1px 1px;
+  padding: 3px 3px 3px 3px;
+  font-family: 'Bangers', cursive;
+  margin: 5px;
 }
 
 
@@ -585,7 +594,6 @@ font-size: 18px;
    .closebtn:hover {
        color: black;
    }
-   Try it Yourself »
 
    /************************************List Group*/
 
