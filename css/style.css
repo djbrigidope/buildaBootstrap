@@ -17,6 +17,20 @@ body {
   /*border: 5px black dotted;*/
 }
 
+/*body {
+  max-width: 800px;
+  min-width:400px;
+  height: 100%;
+  justify-content: center;
+  /*margin-left: 10%;*/
+  padding: 5%;
+  /*border: 5px black dotted;*/
+}*/
+
+
+
+
+
 .main {
   min-width: 350px;
   max-width: 750px;
@@ -43,7 +57,7 @@ body {
 
 /**************** Grid *******************/
 
-
+/****************** video settings*/
 .fullscreen-bg {
     position: fixed;
     top: 0;
@@ -52,6 +66,8 @@ body {
     left: 0;
     overflow: hidden;
     z-index: -100;
+    width: auto;
+    height: auto;
 }
 
 .fullscreen-bg__video {
@@ -68,7 +84,22 @@ body {
         -ms-transform: translate(-50%, -50%);
 	    transform: translate(-50%, -50%);
 }
-/*************************** font choices*/
+
+/*@media (max-width: 767px) {
+    .fullscreen-bg {
+        background: url('wethestatic.png') center center / cover no-repeat;
+    }
+
+    .fullscreen-bg__video {
+        display: none;
+    }
+}*/
+/****************** video settings*/
+
+
+
+
+
 
 
 /************************************* Goolgle FOnts*/
@@ -95,7 +126,7 @@ font-family: 'Bangers', cursive;
 
 /*toool barrr ***********************/
 
-
+/*flexbox grow on litems*/
 
 ul.toolbar li {
   width: 25%;
@@ -124,6 +155,8 @@ ul.toolbar li {
   font-size: 52px;
   color: green;
 }
+
+/*************************** font choices*/
 
 
 /*html {
@@ -580,6 +613,7 @@ ul.breadcrumb li a:hover {
   background-size: cover;
   height: auto;
   width: 100%;
+  padding: 20px;
   /*opacity: 0.5;*/
 }
 
@@ -644,6 +678,7 @@ img:hover {
   margin-bottom: 15px;
   opacity: 1;
   transition: opacity 0.6s;
+  font-size: 25px;
   /* 600ms to fade out */
 }
 
@@ -655,8 +690,8 @@ img:hover {
   color: white;
   font-weight: bold;
   float: right;
-  font-size: 22px;
-  line-height: 20px;
+  font-size: 30px;
+  /*line-height: 20px;*/
   cursor: pointer;
   transition: 0.3s;
 }
