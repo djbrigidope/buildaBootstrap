@@ -1,6 +1,6 @@
-/******************************************************
+/****************************************************
 
-*******************notes from front end masters******
+***************** *notes from front end masters *****
 
 *****************************************************
 
@@ -58,8 +58,6 @@ body {
   padding: 5%;
   /*border: 5px black dotted;*/
 }*/
-
-
 
 
 
@@ -180,12 +178,51 @@ ul.toolbar li {
   font-family: 'Bangers', cursive;
   font-size: 32px;
   color: green;
+   animation:myfirst 5s;
+ -moz-animation:myfirst 5s infinite; /* Firefox */
+-webkit-animation:myfirst 5s infinite; /* Safari and Chrome */
+ }
+
+
+ @-moz-keyframes myfirst /* Firefox */
+{
+0%   {color:red;}
+50%  {color:yellow;}
+100%   {color:red;}
 }
+
+   @-webkit-keyframes myfirst /* Firefox */
+{
+0%   {color:red;}
+50%  {color:yellow;}
+100%   {color:red;}
+}
+
+
 
 .highBIG {
   font-family: 'Bangers', cursive;
   font-size: 52px;
   color: green;
+   animation:myfirst 5s;
+ -moz-animation:myfirst 5s infinite; /* Firefox */
+-webkit-animation:myfirst 5s infinite; /* Safari and Chrome */
+ }
+
+
+ @-moz-keyframes myfirst /* Firefox */
+{
+0%   {color:red;}
+50%  {color:yellow;}
+100%   {color:red;}
+}
+
+   @-webkit-keyframes myfirst /* Firefox */
+{
+0%   {color:red;}
+50%  {color:yellow;}
+100%   {color:red;}
+}
 }
 
 /*************************** font choices*/
