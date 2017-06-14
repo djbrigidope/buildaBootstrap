@@ -1,7 +1,7 @@
 # buildaBootstrap
 brigidope and solomanolo make a css library.
 # Build Your Own Bootstrap
-
+25 /29
 ## Challenge Rating
 
 This goal will likely be within your ZPD if you...
@@ -70,8 +70,8 @@ Components include replicas of Bootstrap's:
 - [X] [Badges](http://getbootstrap.com/components/#badges)
 - [X] [Jumbotron](http://getbootstrap.com/components/#jumbotron)
 - [X] [Page Header](http://getbootstrap.com/components/#page-header)
-- [ ] [Thumbnails](http://getbootstrap.com/components/#thumbnails)
-- [ ] [Alerts](http://getbootstrap.com/components/#alerts)
+- [X] [Thumbnails](http://getbootstrap.com/components/#thumbnails)
+- [X] [Alerts](http://getbootstrap.com/components/#alerts)
 - [ ] [List Group](http://getbootstrap.com/components/#list-group)
 - [ ] [Panels](http://getbootstrap.com/components/#panels)
 - [ ] [Wells](http://getbootstrap.com/components/#wells)
@@ -81,8 +81,8 @@ Components include replicas of Bootstrap's:
 Now it's time to make it look good 😎. Make changes to the CSS (not the HTML) to apply your own styles to the design.
 
 Demo page `demo.html` shows components/elements with customized styles, including (but not limited to):
-- [ ] A different typeface (take a look at [Google Fonts][google-fonts] for inspiration)
-- [ ] A unique and different color palette (take a look at [Adobe Color CC][adobe-color] for inspiration)
+- [X] A different typeface (take a look at [Google Fonts][google-fonts] for inspiration)
+- [X] A unique and different color palette (take a look at [Adobe Color CC][adobe-color] for inspiration)
 
 Style should be cohesive, connecting the elements as a whole. For example, a similar color palette is chosen.
 

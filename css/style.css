@@ -1,3 +1,35 @@
+/******************************************************
+
+*******************notes from front end masters******
+
+*****************************************************
+
+you need 2 things:
+the property you are changing
+AND
+the duration. this is not optional.
+
+anatomy of a transition:
+transition-property: the property you want to transition
+
+transition - duration in second or milliseconds (use millisecond.
+JS takes milliseconds. then you dont have to convert or use decimals)
+
+transition-timing-function "cusioning" for te transition
+
+
+
+
+
+
+
+
+*****************************************************
+
+*****************************************************
+
+******************************************************/
+
 /*@media (max-width: 400px) {
   .flex-grid {
     display: block;
